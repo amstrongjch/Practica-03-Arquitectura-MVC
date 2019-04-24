@@ -107,4 +107,8 @@ public final class NoVascular extends Vegetal implements Acciones{
     public boolean reproducirse(){
         return true;
     }
+
+    public Object get(int codigo) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

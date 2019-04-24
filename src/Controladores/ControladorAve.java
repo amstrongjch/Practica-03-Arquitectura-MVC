@@ -12,24 +12,27 @@ import java.util.List;
 import java.util.Set;
 
 /**
- *
+ *controladorAve
  * @author Amstrong
+ * en esta clase se aplicara el crup de ave
+ * 
  */
 public class ControladorAve {
     private Set<Ave> lista;
     private int codigo;
-
+    
+//constructor
     public ControladorAve() {
         lista = new HashSet<>();
         codigo=0;
     }
-
+//creacion del objeto tipo ave
     public void create(Ave objeto) {
         codigo++;
         objeto.setCodigo(codigo);
         lista.add(objeto);
     }
-
+// leer el objeto tipo ave
     public Ave read(int codigo) {
         for (Ave ave : lista) {
             if (ave.getCodigo() == codigo) {
@@ -38,7 +41,7 @@ public class ControladorAve {
         }
         return null;
     }
-
+//modificacion del objeto tipo ave
     public void update(Ave objeto) {
         for (Ave ave : lista) {
             
@@ -49,13 +52,25 @@ public class ControladorAve {
             }
         }
     }
-
+// elminacion del objeto tipo ave
     public void delet(int codigo) {
         for (Ave ave : lista) {
             if (ave.getCodigo()==codigo) {
                 lista.remove(ave);
                 break;
             }
+        }
+    }
+ //listar los objetos tipo ave
+    public void listar(){
+        for(Ave ave : lista){
+            System.err.println(ave);
+        }
+    }
+//metodos extra mostrar por pantalla los codigos de los objetos
+    public void codigo(){
+        for(Ave ave : lista){
+            System.err.println(ave.getCodigo()+ "."+ave.getNombre());
         }
     }
 }

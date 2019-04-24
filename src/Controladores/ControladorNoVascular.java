@@ -12,45 +12,45 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *
- * @author Edison
+ *controladorNoVascular
+ * en esta clase se aplicara los crup de NoVascular
+ * @author Amstrong
  */
 public class ControladorNoVascular {
     private Map<Integer, NoVascular> lista;
     private int codigo;
-
+    
+//constructor
     public ControladorNoVascular() {
         lista = new HashMap<Integer, NoVascular>();
         codigo=0;
     }
-
+//creacion del objeto de tipo NoVascular
     public void create(NoVascular objeto) {
         codigo++;
-        lista.put(codigo, objeto);
         objeto.setCodigo(codigo);
+        lista.put(codigo, objeto);
+        
     }
-
+//leer el objeto tipo NoVascular 
     public NoVascular read(int codigo) {
        return lista.get(codigo);
         }
-     
+//modificacion del objeto tipo NoVascular
     public void update(NoVascular objeto) {
-        for (int i = 0; i < lista.size(); i++) {
-           
-            if (lista.get(codigo).getCodigo()==objeto.getCodigo()) {
-                lista.remove(codigo, lista.get(codigo));
-                lista.put(codigo, objeto);
+            
+                lista.remove(objeto.get(codigo));
+                lista.put(objeto.getCodigo(), objeto);
             }
-        }
-    }
-
+        
+  
+//eliminar del objeto de tipo NoVascular
     public void delet(int codigo) {
-        for (int i = 0; i < lista.size(); i++) {
-            if (lista.get(codigo).getCodigo()==codigo) {
                 lista.remove(codigo);
               
             }
-        }
-    }
-    
+//listar los objetos de tipo NoVascular 
+    public void listar(){
+        System.err.println(lista.values());
+    }  
 }
