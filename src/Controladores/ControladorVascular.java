@@ -70,7 +70,7 @@ public class ControladorVascular {
     //sirve para mostrar por pantalla los codigos de los objetos
     public void codigo(){
         for(Vascular vascular : lista){
-            System.err.println(vascular.getCodigo()+ ". "+vascular.getNombre());
+            System.out.println(vascular.getCodigo()+ ". "+vascular.getNombre());
         }
     }
 

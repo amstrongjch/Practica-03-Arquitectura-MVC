@@ -389,7 +389,7 @@ public class Lista {
                                 NoVascular noVascular2 = new NoVascular(codigo, tipo, rizoides, escamas, hojas, frutas, usoVegetal, lugarCrecimiento, nombre, añosVida, peso, tamaño, cantidadEscamas);
                                 cnv.update(noVascular2);
                                 }else{
-                                    System.err.println("el animal NoVascular no existe");
+                                    System.out.println("el animal NoVascular no existe");
                                 }
                                 break;
                             case 4:

@@ -64,13 +64,13 @@ public class ControladorAve {
  //listar los objetos tipo ave
     public void listar(){
         for(Ave ave : lista){
-            System.err.println(ave);
+            System.out.println(ave);
         }
     }
 //metodos extra mostrar por pantalla los codigos de los objetos
     public void codigo(){
         for(Ave ave : lista){
-            System.err.println(ave.getCodigo()+ "."+ave.getNombre());
+            System.out.println(ave.getCodigo()+ "."+ave.getNombre());
         }
     }
 }

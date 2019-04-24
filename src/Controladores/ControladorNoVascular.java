@@ -51,6 +51,6 @@ public class ControladorNoVascular {
             }
 //listar los objetos de tipo NoVascular 
     public void listar(){
-        System.err.println(lista.values());
+        System.out.println(lista.values());
     }  
 }
