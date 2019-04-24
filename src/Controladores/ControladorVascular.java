@@ -12,23 +12,25 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 /**
- *
- * @author Edison
+ *controladorVascular
+ * En esta clase se aplicara los crud de Vascular
+ * @author Amstrong
  */
 public class ControladorVascular {
     private SortedSet<Vascular> lista;
     private int codigo;
 
+    //constructor
     public ControladorVascular() {
         lista = new TreeSet<>();
         codigo =0;
     }
-
+//creacion del objeto tipo Vascular
     public void create(Vascular objeto) {
         codigo++;
         lista.add(objeto);
     }
-
+//leer el objeto de tipo vascular
     public Vascular read(int codigo) {
         for (Vascular vascular : lista) {
             if (vascular.getCodigo() == codigo) {
@@ -37,7 +39,7 @@ public class ControladorVascular {
         }
         return null;
     }
-
+//modificacion del objeto tipo vascular
     public void update(Vascular objeto) {
         for (Vascular vascular : lista) {
             
@@ -48,7 +50,7 @@ public class ControladorVascular {
             }
         }
     }
-
+//eliminacion del objeto tipo vascular
     public void delet(int codigo) {
         for (Vascular vascular :lista) {
             
@@ -58,11 +60,18 @@ public class ControladorVascular {
             }
         }
     }
+    //listar los objetos de tipo vascular
     public void imprimir(){
         System.out.println("lista ordenada");
         for(Vascular vascular : lista){
             System.out.println(vascular.toString());
         }
     }
-    
+    //sirve para mostrar por pantalla los codigos de los objetos
+    public void codigo(){
+        for(Vascular vascular : lista){
+            System.err.println(vascular.getCodigo()+ ". "+vascular.getNombre());
+        }
+    }
+
 }
