@@ -29,7 +29,7 @@ import java.util.TreeSet;
 
 /**
  *
- * @author Edison
+ * @author Amstrong
  */
 public class Main {
 

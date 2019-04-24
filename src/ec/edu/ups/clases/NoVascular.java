@@ -11,7 +11,7 @@ import ec.edu.ups.interfaces.Acciones;
 
 /**
  * Novascular
- * @author Edison
+ * @author Amstrong
  */
 public final class NoVascular extends Vegetal implements Acciones{
     // atrivutos

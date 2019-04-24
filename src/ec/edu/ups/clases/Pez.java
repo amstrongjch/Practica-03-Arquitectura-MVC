@@ -9,7 +9,7 @@ import ec.edu.ups.interfaces.Acciones;
 
 /**
  * Pez
- * @author Edison
+ * @author Amstrong
  */
 public final class Pez extends Animal implements Acciones{
     // atributos

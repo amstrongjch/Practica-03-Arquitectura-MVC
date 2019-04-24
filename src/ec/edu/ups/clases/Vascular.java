@@ -10,7 +10,7 @@ import ec.edu.ups.interfaces.Acciones;
 
 /**
  * Vascular
- * @author Edison
+ * @author Amstrong
  */
 public final class Vascular extends Vegetal implements Acciones{
     // atrivutos

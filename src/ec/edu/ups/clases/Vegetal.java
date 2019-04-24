@@ -9,7 +9,7 @@ import ec.edu.ups.interfaces.Acciones;
 
 /**
  * Vegetal
- * @author Edison
+ * @author Amstrong
  */
 public abstract class Vegetal extends SerVivo implements Acciones{
     // atributos

@@ -9,7 +9,7 @@ import ec.edu.ups.interfaces.Acciones;
 
 /**
  * Ave
- * @author Edison
+ * @author Amstrong
  */
 public final class Ave extends Animal implements Acciones{
     // atrivutos

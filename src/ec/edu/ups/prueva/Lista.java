@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Edison
+ * @author Amstrong
  */
 public class Lista {
 
