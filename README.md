@@ -24,5 +24,5 @@ Nombre de usuario: amstrongjch
 
 https://github.com/amstrongjch/Practica-03-Arquitectura-MVC
 
-https://github.com/amstrongjch/Practica-03-Arquitectura-MVC/issues/1#issuecomment-486724064
+![imagen](https://github.com/amstrongjch/Practica-03-Arquitectura-MVC/issues/1#issuecomment-486724064)
 
