@@ -32,6 +32,7 @@ https://github.com/amstrongjch/Practica-03-Arquitectura-MVC
 
 
 3.Crear un paquete para los controladores y un paquete para la vista
+
 ![imagen](https://github.com/amstrongjch/Practica-03-Arquitectura-MVC/issues/1#issuecomment-486727165)
 
 4. Crear un controlador por cada clase hija. En total, cuatro controladores
@@ -44,9 +45,19 @@ https://github.com/amstrongjch/Practica-03-Arquitectura-MVC
 
 6. Al menos una clase Controlador debe ser implementada usando la interface Set y la clase HashSet.
 
+![imagen](https://github.com/amstrongjch/Practica-03-Arquitectura-MVC/issues/1#issuecomment-486733655)
+
 7. Al menos una clase Controlador debe ser implementada usando la interface SortedSet y la clase TreeSet.
 
+![imagen](https://github.com/amstrongjch/Practica-03-Arquitectura-MVC/issues/1#issuecomment-486733790)
+
 8. Al menos una clase Controlador debe ser implementada usando la interface Map y la clase HashMap o la interface Map y la clase TreeMap
+
+![imagen](https://github.com/amstrongjch/Practica-03-Arquitectura-MVC/issues/1#issuecomment-486735323)
+
+9. Crear una clase “Principal”, en donde se demostrará el funcionamiento del sistema completo a través de la consola de java, usando menús y submenús para acceder a las opciones.
+
+![imagen](https://github.com/amstrongjch/Practica-03-Arquitectura-MVC/issues/1#issuecomment-486735786)
 
 
 
