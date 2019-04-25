@@ -18,4 +18,8 @@ OBJETIVO ALCANZADO:
 
 ACTIVIDADES DESARROLLADAS
 
-1. Crear un repositorio en GitHub con el nombre “Práctica 03 – Arquitectura MVC” Nombre de usuario: VasquezB1
+1. Crear un repositorio en GitHub con el nombre “Práctica 03 – Arquitectura MVC” 
+
+Nombre de usuario: amstrongjch
+
+https://github.com/amstrongjch/Practica-03-Arquitectura-MVC
