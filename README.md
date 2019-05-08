@@ -59,7 +59,7 @@ https://github.com/amstrongjch/Practica-03-Arquitectura-MVC
 
 ![imagen](https://github.com/amstrongjch/Practica-03-Arquitectura-MVC/issues/1#issuecomment-486735786.png)
 
-
+https://github.com/amstrongjch/Practica-03-Arquitectura-MVC
 
 RESULTADO(S) OBTENIDO(S):
 •	Mediante este proceso pudimos observar que los controladores aplicados y practicado mediante clases, fue de mucha para poder desarrollar este práctica, ya que cada practica se fue realizando de una manera diferente.
